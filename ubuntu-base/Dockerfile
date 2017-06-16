@@ -13,7 +13,8 @@ traceroute \
 dnsutils \
 nano \
 mc \
-sudo
+sudo \
+acl
 
 RUN echo "type -p -a mc >/dev/null && alias mc=\". /usr/share/mc/bin/mc-wrapper.sh\"" >> /etc/profile && \
     echo "source /etc/profile" >> /root/.bashrc
