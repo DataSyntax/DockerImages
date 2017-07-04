@@ -6,7 +6,7 @@ RUN yum -y update && yum -y install --setopt=tsflags=nodocs gcc-c++ make nodejs 
     nginx \
     && yum clean all
 
-RUN npm install --global gulp-cli webpack@1.14.0 webpack-dev-server@1.16.2
+RUN npm install --global gulp-cli rimraf gulp-rimraf webpack@1.14.0 webpack-dev-server@1.16.2
 
 EXPOSE 80 443
 
