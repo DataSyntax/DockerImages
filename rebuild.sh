@@ -20,8 +20,10 @@ docker build -t datasyntax/centos-nodejs centos-nodejs/
 
 docker push datasyntax/ubuntu-base
 docker push datasyntax/ubuntu-mysql
+docker tag datasyntax/ubuntu-php70 datasyntax/ubuntu-php70:1.2
 docker push datasyntax/ubuntu-php70
 docker push datasyntax/ubuntu-nginx
+docker tag datasyntax/ubuntu-php70-npm datasyntax/ubuntu-php70-npm:1.2
 docker push datasyntax/ubuntu-php70-npm
 docker push datasyntax/centos-base
 docker push datasyntax/centos-ocpu
