@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
 apt-get install -y software-properties-common python-software-properties && \
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && \
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash - && \
 add-apt-repository -y ppa:webupd8team/java && \
 apt-get update && \
 apt-get install -y \
