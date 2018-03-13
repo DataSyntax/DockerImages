@@ -27,7 +27,7 @@ done
 if [[ !( $repo && $user ) ]]; then echo -e "\nMissing required parameters - repo, user!"; exit; fi
 
 
-docker run --rm --entrypoint "/bin/bash" -ti $user/$repo -l
+docker run --rm --entrypoint "/bin/bash" -ti $user/$repo:$tag -l
 
 
 
