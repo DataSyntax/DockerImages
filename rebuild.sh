@@ -27,7 +27,7 @@ if [[ !( $repo && $user ) ]]; then echo -e "\nMissing required parameters - repo
 
 docker image prune -f
 docker login
-docker build -t $user/$repo $repo/
+docker build --pull -t $user/$repo $repo/
 
 if [[ ! -z $tag ]]; then
    docker tag $user/$repo $user/$repo:$tag
