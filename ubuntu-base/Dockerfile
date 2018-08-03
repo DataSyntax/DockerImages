@@ -16,7 +16,9 @@ mc \
 sudo \
 apt-transport-https \
 ca-certificates \
-software-properties-common
+software-properties-common \
+cifs-utils \
+nfs-common
 
 
 RUN echo "type -p -a mc >/dev/null && alias mc=\". /usr/share/mc/bin/mc-wrapper.sh\"" >> /etc/profile && \

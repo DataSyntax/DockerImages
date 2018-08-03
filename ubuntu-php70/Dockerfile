@@ -28,7 +28,6 @@ php-sybase \
 php-xdebug \
 php-gd \
 php-ssh2 \
-cifs-utils \
 postgresql && \
 echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \
 echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-selections && \
