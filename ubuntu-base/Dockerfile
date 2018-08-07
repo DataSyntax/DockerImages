@@ -18,7 +18,8 @@ apt-transport-https \
 ca-certificates \
 software-properties-common \
 cifs-utils \
-nfs-common
+nfs-common \
+git
 
 
 RUN echo "type -p -a mc >/dev/null && alias mc=\". /usr/share/mc/bin/mc-wrapper.sh\"" >> /etc/profile && \
