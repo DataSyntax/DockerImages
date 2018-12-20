@@ -1,6 +1,6 @@
 FROM datasyntax/centos-base
 
-LABEL maintainer = "Ross Ivantsiv <ross@proofpilot.com>"
+LABEL maintainer = "Ross Ivantsiv <ross@datasyntax.ua>"
 
 RUN yum -y update && yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm && \
     rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7 /etc/pki/rpm-gpg/RPM-GPG-KEY-remi /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7 && \

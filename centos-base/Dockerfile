@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL maintainer = "Ross Ivantsiv <ross@proofpilot.com>"
+LABEL maintainer = "Ross Ivantsiv <ross@datasyntax.ua>"
 
 #######################################################################################################################
 ###     Install some prerequisites

@@ -1,6 +1,6 @@
 FROM datasyntax/centos-base
 
-LABEL maintainer = "Ross Ivantsiv <ross@proofpilot.com>"
+LABEL maintainer = "Ross Ivantsiv <ross@datasyntax.ua>"
 
 RUN yum -y update && \
     yum -y install epel-release && \
